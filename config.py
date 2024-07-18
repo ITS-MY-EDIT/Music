@@ -7,14 +7,14 @@ from pyrogram import filters
 load_dotenv()
 
 #❖ Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("API_ID", "28795512"))
+API_HASH = getenv("API_HASH", "c17e4eb6d994c9892b8a8b6bfea4042a")
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "roy_editx")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "V_VIP_OWNER")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "NYKAAXBOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "ALEXA_MUSIC_BOT")
 
 #❖  Don't Add style font 
 BOT_NAME = getenv("BOT_NAME", "NYKAA MUSIC")
